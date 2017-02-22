@@ -14,4 +14,5 @@ This talk will address some of the same concepts as last year, but tactically bu
  * [developers.arcgis.com/web-appbuilder](https://developers.arcgis.com/web-appbuilder/)
  * Geonet: [Web AppBuilder Custom Widgets Group](https://geonet.esri.com/groups/web-app-builder-custom-widgets)
  * [WAB Widget Search](http://gavinr.github.io/wab-widget-search)
+ * [WAB Build Tool](https://www.github.com/gbochenek/esri-wab-build)
  * [WAB Awesome list](https://hhkaos.github.io/awesome-arcgis/front-end/technologies/dojo/web-appbuilder/)
