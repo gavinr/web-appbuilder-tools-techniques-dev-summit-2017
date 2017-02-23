@@ -23,6 +23,31 @@
     <!-- for icons -->
     <link rel="stylesheet" href="reveal.js/lib/font/font-awesome-4.7.0/css/font-awesome.min.css">
 
+    <!-- Custom Styles for our presentation -->
+    <style>
+      .reveal section img {
+        border: 0px;
+        background: none;
+        box-shadow: none;
+      }
+
+      /* overlay header */
+      .reveal h4 {
+          background: rgba(0,0,0,.5);
+          color:  #fff;
+          position: fixed;
+          width: calc(100% + 150px);
+          left: 0;
+          top: 280px;
+          margin-left: -75px;
+          margin-top: 0;
+          margin-bottom: 0;
+          font-size: 1.6em;
+          line-height: 1.8em;
+      }
+
+    </style>
+
     <!-- Printing and PDF exports -->
     <script>
       var createLink = function(url) {
@@ -55,10 +80,20 @@
         <!-- Use external markdown resource, separate slides by ---; separate vertical slides by ----- -->
         <section data-markdown="intro.md" data-background="reveal.js/img/title.png" class="center"></section>
         <section data-markdown="about-us.md" data-background="reveal.js/img/title.png" class="center"></section>
-        <section data-markdown="example2.md" data-background="reveal.js/img/bg-1.png" class="center"></section>
+        <section data-markdown="what-is-web-appbuilder.md" data-background="reveal.js/img/bg-1.png" class="center"></section>
+        <section data-markdown="development-tools-and-patterns.md" data-background="reveal.js/img/bg-1.png" class="center" data-separator-notes="^Note:"></section>
+        <section data-markdown="do-i-need-these-tools.md" data-background="reveal.js/img/bg-1.png" class="center"></section>
+        <section data-markdown="pattern-source-code.md" data-background="reveal.js/img/bg-1.png" class="center"></section>
+        <section data-markdown="pattern-writing-widgets.md" data-background="reveal.js/img/bg-1.png" class="center"></section>
+
+
+        <!-- <section data-markdown="example2.md" data-background="reveal.js/img/bg-1.png" class="center"></section>
         <section data-markdown="example4.md" data-background="reveal.js/img/bg-1.png" class="center"></section>
-        <section data-markdown="example5.md" data-background="reveal.js/img/bg-2.png" class="center"></section>
-        <section data-markdown="example6.md" data-background="reveal.js/img/end.png" ></section>
+        <section data-markdown="example5.md" data-background="reveal.js/img/bg-2.png" class="center"></section> -->
+
+        <section data-markdown="resources.md" data-background="reveal.js/img/bg-2.png" class="center"></section>
+        <section data-markdown="thank-you.md" data-background="reveal.js/img/bg-2.png" class="center"></section>
+        <section data-markdown="end.md" data-background="reveal.js/img/end.png" ></section>
       </div>
 
     </div>
