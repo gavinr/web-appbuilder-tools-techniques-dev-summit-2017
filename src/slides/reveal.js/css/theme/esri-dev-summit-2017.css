@@ -4,12 +4,7 @@
  *
  * This theme is Copyright (C) 2012 Owen Versteeg, https://github.com/StereotypicalApps. It is MIT licensed.
  * reveal.js is Copyright (C) 2011-2012 Hakim El Hattab, http://hakim.se
- * 
- * 2016-03-05: Bjorn changes a few things
- * 2017-01-24: Renamed file for 2017
- * 
  */
-/*@import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);*/
 /*********************************************
  * GLOBAL STYLES
  *********************************************/
@@ -144,24 +139,21 @@ body {
 .reveal pre {
   display: block;
   position: relative;
-  width: 80%;
+  width: 90%;
   margin: 20px auto;
   text-align: left;
-  font-size: 0.8em;
+  font-size: 0.55em;
   font-family: monospace;
   line-height: 1.2em;
   word-wrap: break-word;
   box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3); }
 
-.reveal li > pre {
-  width: 100%;
-}
 .reveal code {
   font-family: monospace; }
 
 .reveal pre code {
   display: block;
-  padding: 10px;
+  padding: 5px;
   overflow: auto;
   max-height: 400px;
   word-wrap: normal; }
@@ -206,28 +198,24 @@ body {
 .reveal small * {
   vertical-align: top; }
 
-.reveal .right {
-  position: absolute;
-  right: 0;
-}
 /*********************************************
  * LINKS
  *********************************************/
 .reveal a {
-  color: #21AEDB;
+  color: #c0e8ff;
   text-decoration: none;
   -webkit-transition: color .15s ease;
   -moz-transition: color .15s ease;
   transition: color .15s ease; }
 
 .reveal a:hover {
-  color: #77cfeb;
+  color: white;
   text-shadow: none;
   border: none; }
 
 .reveal .roll span:after {
   color: #fff;
-  background: #177999; }
+  background: #74ccff; }
 
 /*********************************************
  * IMAGES
@@ -249,7 +237,7 @@ body {
 
 .reveal a:hover img {
   background: rgba(255, 255, 255, 0.2);
-  border-color: #21AEDB;
+  border-color: #c0e8ff;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.55); }
 
 /*********************************************
@@ -257,31 +245,31 @@ body {
  *********************************************/
 .reveal .controls .navigate-left,
 .reveal .controls .navigate-left.enabled {
-  border-right-color: #21AEDB; }
+  border-right-color: #c0e8ff; }
 
 .reveal .controls .navigate-right,
 .reveal .controls .navigate-right.enabled {
-  border-left-color: #21AEDB; }
+  border-left-color: #c0e8ff; }
 
 .reveal .controls .navigate-up,
 .reveal .controls .navigate-up.enabled {
-  border-bottom-color: #21AEDB; }
+  border-bottom-color: #c0e8ff; }
 
 .reveal .controls .navigate-down,
 .reveal .controls .navigate-down.enabled {
-  border-top-color: #21AEDB; }
+  border-top-color: #c0e8ff; }
 
 .reveal .controls .navigate-left.enabled:hover {
-  border-right-color: #77cfeb; }
+  border-right-color: white; }
 
 .reveal .controls .navigate-right.enabled:hover {
-  border-left-color: #77cfeb; }
+  border-left-color: white; }
 
 .reveal .controls .navigate-up.enabled:hover {
-  border-bottom-color: #77cfeb; }
+  border-bottom-color: white; }
 
 .reveal .controls .navigate-down.enabled:hover {
-  border-top-color: #77cfeb; }
+  border-top-color: white; }
 
 /*********************************************
  * PROGRESS BAR
@@ -290,7 +278,14 @@ body {
   background: rgba(0, 0, 0, 0.2); }
 
 .reveal .progress span {
-  background: #21AEDB;
+  background: #c0e8ff;
   -webkit-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
   -moz-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
   transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985); }
+
+.reveal li > pre {
+  width: 100%; }
+
+.reveal .right {
+  position: absolute;
+  right: 0; }
