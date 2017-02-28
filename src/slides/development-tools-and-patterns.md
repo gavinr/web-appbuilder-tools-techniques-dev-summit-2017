@@ -18,6 +18,7 @@
 	<li class="fragment">Don't write WAB widgets from scratch</li>
 	<li class="fragment">WAB widgets wrap your own widgets</li>
 	<li class="fragment">Run and test your code outside the WAB</li>
+	<li class="fragment">Build your applications for production</li>
 
 </ol>
 
