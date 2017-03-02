@@ -50,14 +50,26 @@
 ---
 
 <!-- .slide: data-background="img/wab-generator-sceenshot.png" data-background-size="634px" data-background-color="#282923" -->
-#### todo: talk about new features: es2015, styling with sass, custom themes (community contribution)
-
----
-
-<!-- .slide: data-background="img/wab-generator-sceenshot.png" data-background-size="634px" data-background-color="#282923" -->
 #### Installs tools to transpile and copy to WAB folder
 
 ---
 
 <!-- .slide: data-background="img/wab-generator-sceenshot.png" data-background-size="634px" data-background-color="#282923" -->
 #### Subgenerator to scaffold out widget files
+
+---
+
+<!-- .slide: data-background="img/wab-generator-sceenshot.png" data-background-size="634px" data-background-color="#282923" -->
+#### New Features: SASS styling, custom themes
+
+---
+
+## Patterns Review
+
+<ol>
+	<li>Keep your source code outside of the WAB folders</li>
+	<li>Don't write WAB widgets from scratch</li>
+	<li>WAB widgets wrap your own widgets</li>
+	<li>Run and test your code outside the WAB</li>
+	<li>Build your applications for production</li>
+</ol>
