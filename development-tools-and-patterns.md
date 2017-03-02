@@ -3,10 +3,7 @@
 
 ---
 
-## Patterns are the same
-
----
-
+## Patterns are the same ...
 ## Tools have improved
 
 ---
@@ -14,10 +11,11 @@
 ## Patterns
 
 <ol>
-	<li class="fragment">Keep your source code outside of the WAB folders</li>
-	<li class="fragment">Don't write WAB widgets from scratch</li>
-	<li class="fragment">WAB widgets wrap your own widgets</li>
-	<li class="fragment">Run and test your code outside the WAB</li>
+	<li>Keep your source code outside of the WAB folders</li>
+	<li>Don't write WAB widgets from scratch</li>
+	<li>WAB widgets wrap your own widgets</li>
+	<li>Run and test your code outside the WAB</li>
+	<li>Build your applications for production</li>
 
 </ol>
 
