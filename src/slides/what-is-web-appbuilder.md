@@ -4,9 +4,10 @@
 
 ---
 
-## Builder Experience
-
-Note: Brings "builder" experience from Flex/Silverlight to JavaScript
+<video controls loop>
+<source src="img/wab-runthrough-quick.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
 
 ---
 
@@ -25,3 +26,10 @@ Note: Brings "builder" experience from Flex/Silverlight to JavaScript
 ## What's new in Web AppBuilder
 
 ![Feature Actions](img/feature-actions.png)
+
+---
+
+<video autoplay loop controls>
+<source src="img/wab-3d.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
