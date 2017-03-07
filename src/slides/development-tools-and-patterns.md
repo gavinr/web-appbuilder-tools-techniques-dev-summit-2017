@@ -14,7 +14,7 @@
 	<li>Keep your source code outside of the WAB folders</li>
 	<li>Don't write WAB widgets from scratch</li>
 	<li>WAB widgets wrap your own widgets</li>
-	<li>Run and test your code outside the WAB</li>
+	<li>Test your code outside the WAB</li>
 	<li>Build your applications for production</li>
 
 </ol>

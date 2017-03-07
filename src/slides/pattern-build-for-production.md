@@ -9,3 +9,12 @@ Note: There's one more very important pattern to making sure your applications a
 <!-- .slide: data-background="img/speedometer.jpg" -->
 
 ## Demo: Build it!
+
+---
+
+<!-- .slide: data-background="reveal.js/img/bg-2.png" -->
+
+# Coming Soon
+### 3D Builds
+### Fewer Dependencies
+### Better Performance
