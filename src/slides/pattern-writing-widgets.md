@@ -6,6 +6,3 @@
 
 ## Demo: Widget Sub Generator
 
----
-
-## Demo: Extending a Widget
