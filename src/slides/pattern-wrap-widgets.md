@@ -4,7 +4,6 @@
 
 # ....maybe <!-- .element: class="fragment" -->
 
-
 Note: Extending widgets is a really great way to take advantage of out of the box functionality, while still allowing you to put any small bits of organizational functionality that may be required.That's great, but sometimes, we need to write a whole widget to tackle a more complex or unique workflow.  
 
 There's a lot of work that goes into writing one of these widgets, so we want to make sure the widget is as flexible and portable as possible.One way to do that, is to write the widget functionality as a vanilla JavaScript API widget (that could work in any application), and combine that widget into your Web App Builder App.
