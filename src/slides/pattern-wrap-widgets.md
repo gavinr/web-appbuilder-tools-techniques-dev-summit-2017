@@ -4,8 +4,8 @@
 
 # ....maybe <!-- .element: class="fragment" -->
 
-
 Note:  There's a lot of work that goes into writing one of these widgets, so we want to make sure the widget is as flexible and portable as possible.One way to do that, is to write the widget functionality as a vanilla JavaScript API widget (that could work in any application), and combine that widget into your Web App Builder App.
+
 
 By creating a widget that is more portable, the workflow can be moved to a wider variety of applications, tested and written outside of web app builder, and more closely follow your organizations style guidelines.
 
